@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 10, 2018 at 06:35 PM
+-- Generation Time: Nov 11, 2018 at 05:32 PM
 -- Server version: 10.1.36-MariaDB
 -- PHP Version: 7.2.11
 
@@ -25,30 +25,31 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `lab_connect_mysql`
+-- Table structure for table `content`
 --
 
-CREATE TABLE `lab_connect_mysql` (
+CREATE TABLE `content` (
   `ID` int(5) NOT NULL,
   `comment` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `lab_connect_mysql`
+-- Dumping data for table `content`
 --
 
-INSERT INTO `lab_connect_mysql` (`ID`, `comment`) VALUES
+INSERT INTO `content` (`ID`, `comment`) VALUES
 (1, 'MOBILE DEVICE'),
-(2, 'DATABASE DESIGN');
+(2, 'DATABASE DESIGN'),
+(5, 'TEST ADD DATA');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `lab_connect_mysql`
+-- Indexes for table `content`
 --
-ALTER TABLE `lab_connect_mysql`
+ALTER TABLE `content`
   ADD PRIMARY KEY (`ID`);
 COMMIT;
 
